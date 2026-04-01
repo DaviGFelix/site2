@@ -1,0 +1,141 @@
+{
+    "asset_version": "1774927522",
+    "branding": {
+        "logo_url": "https://www.genspark.ai/api/files/s/eTJcP2Bb",
+        "logo_alt": "Simplesmente Arraial do Cabo"
+    },
+    "hero_slides": [
+        {
+            "image_url": "uploads/site/site_69cae00ab03fc1.33226919.jpeg",
+            "badge": "⭐ Passeio em Destaque",
+            "title": "Descubra Arraial do Cabo",
+            "description": "Águas cristalinas e praias paradisíacas te esperam no Caribe Brasileiro",
+            "primary_text": "Ver Passeios",
+            "primary_link": "#passeios",
+            "secondary_text": "Saiba Mais",
+            "secondary_link": "passeio-detalhes.html?id=barco-arraial-1"
+        },
+        {
+            "image_url": "uploads/site/site_69cae00ab06407.74112078.webp",
+            "badge": "🎉 Festa no Mar",
+            "title": "Passeio de barco em Arraial do Cabo",
+            "description": "Um Passeio de barco pelas praias de Arraial do Cabo com ALMOÇO INCLUSO!",
+            "primary_text": "Reservar Agora",
+            "primary_link": "passeio-detalhes.html?id=barco-buzios-1",
+            "secondary_text": "Explorar Mais",
+            "secondary_link": "#passeios"
+        },
+        {
+            "image_url": "uploads/site/site_69cae8321abee7.50006054.jpeg",
+            "badge": "🤿 Mergulhe em Arraial",
+            "title": "Batismo de Mergulho",
+            "description": "Venha viver uma experiência única no fundo do mar!",
+            "primary_text": "Ver Excursões",
+            "primary_link": "#passeios",
+            "secondary_text": "Falar Conosco",
+            "secondary_link": "#contato"
+        },
+        {
+            "image_url": "uploads/site/site_69cae1d0ae6362.51948429.webp",
+            "badge": "🏄 Aventura e Adrenalina",
+            "title": "Experiências Radicais",
+            "description": "Buggy, Quadriciclo, Mergulho e muito mais!",
+            "primary_text": "Quero Aventura!",
+            "primary_link": "#passeios",
+            "secondary_text": "Todos os Passeios",
+            "secondary_link": "#passeios"
+        }
+    ],
+    "destinos": [
+        {
+            "key": "Arraial do Cabo",
+            "title": "Arraial do Cabo",
+            "text": "Praias paradisíacas com águas cristalinas",
+            "image_url": "uploads/site/site_69cae8321b1057.69182336.webp"
+        },
+        {
+            "key": "Búzios",
+            "title": "Búzios",
+            "text": "Sofisticação e charme mediterrâneo",
+            "image_url": "uploads/site/site_69cae8321bb173.30919549.webp"
+        },
+        {
+            "key": "Cabo Frio",
+            "title": "Cabo Frio",
+            "text": "Dunas de areia branca e sol o ano todo",
+            "image_url": "uploads/site/site_69cae8321bc2e3.31703014.jpg"
+        },
+        {
+            "key": "Angra dos Reis",
+            "title": "Angra dos Reis",
+            "text": "365 ilhas de pura beleza natural",
+            "image_url": "uploads/site/site_69cae8321bce05.89189404.webp"
+        },
+        {
+            "key": "Ilha Grande",
+            "title": "Ilha Grande",
+            "text": "Natureza intocada e praias selvagens",
+            "image_url": "uploads/site/site_69cae8321bdd09.31113945.jpg"
+        },
+        {
+            "key": "Paraty",
+            "title": "Paraty",
+            "text": "História colonial e baías deslumbrantes",
+            "image_url": "uploads/site/site_69cae8321bfe26.34505993.jpg"
+        },
+        {
+            "key": "Rio de Janeiro",
+            "title": "Rio de Janeiro",
+            "text": "Cristo Redentor, Pão de Açúcar e muito mais",
+            "image_url": "uploads/site/site_69cae8321c3133.94033529.jpg"
+        },
+        {
+            "key": "Petrópolis",
+            "title": "Petrópolis",
+            "text": "A cidade imperial da serra carioca",
+            "image_url": "uploads/site/site_69cae8321c4070.81193008.webp"
+        }
+    ],
+    "inspira_gallery": [
+        {
+            "url": "uploads/site/site_69cb2de13aebd7.63618344.jpeg",
+            "title": "Caminho de areia em Arraial do Cabo",
+            "description": "Visual perfeito para destacar experiências exclusivas e passeios contemplativos."
+        },
+        {
+            "url": "uploads/site/site_69cb2de13b3627.27740094.jpeg",
+            "title": "Barco em água cristalina",
+            "description": "Imagem ideal para valorizar passeios de barco e experiências premium."
+        },
+        {
+            "url": "uploads/site/site_69cb2de13b46d1.76991166.webp",
+            "title": "Passeio de Quadriciclo em Arraial",
+            "description": "Nosso passeio tem duração aproximada de 2 horas"
+        },
+        {
+            "url": "uploads/site/site_69cb2de13b5225.93295170.jpeg",
+            "title": "Praia preservada vista do alto",
+            "description": "Perfeita para reforçar a beleza natural e o apelo visual do destino."
+        },
+        {
+            "url": "uploads/site/site_69cb2de13b6522.29140014.webp",
+            "title": "Praia com mar verde-esmeralda",
+            "description": "Ótima para comunicar lazer, família e passeio de dia inteiro."
+        },
+        {
+            "url": "uploads/site/site_69cb3d8ba256e0.42497127.jpeg",
+            "title": "Batismo de Mergulho",
+            "description": "O Batismo de Mergulho é perfeito para quem nunca mergulhou e quer viver essa aventura com total segurança"
+        },
+        {
+            "url": "uploads/site/site_69cb2e16066940.29657492.jpeg",
+            "title": "Balanço Praia de Monte Alto",
+            "description": "Fotos instagramáveis em uma praia de areias claras!"
+        },
+        {
+            "url": "uploads/site/site_69cb3d8ba2b5e6.85558467.png",
+            "title": "Passeio de Buggy",
+            "description": "Que tal viver uma experiência inesquecível em um dos lugares mais paradisíacos da Região dos Lagos?"
+        }
+    ]
+}
