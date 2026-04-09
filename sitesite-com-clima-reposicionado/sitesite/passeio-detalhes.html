@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalhes do passeio - Reserve agora!">
+    <title id="page-title">Detalhes do Passeio - Simplesmente Arraial do Cabo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/passeio-detalhes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- GLightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html">
+                    <img src="https://www.genspark.ai/api/files/s/eTJcP2Bb" alt="Simplesmente Arraial do Cabo" class="logo-img">
+                </a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="index.html#destinos" class="nav__link">Destinos</a></li>
+                    <li class="nav__item"><a href="index.html#passeios" class="nav__link">Passeios</a></li>
+                    <li class="nav__item"><a href="index.html#contato" class="nav__link">Contato</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <a href="index.html"><i class="fas fa-home"></i> Início</a>
+            <span class="separator">/</span>
+            <a href="index.html#passeios">Passeios</a>
+            <span class="separator">/</span>
+            <span id="breadcrumb-current">Carregando...</span>
+        </div>
+    </section>
+
+    <!-- Loading -->
+    <div class="loading-container" id="loading">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Carregando passeio...</p>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main class="passeio-detalhes" id="main-content" style="display: none;">
+        
+        <!-- Galeria de Fotos -->
+        <section class="galeria-section">
+            <div class="container">
+                <div class="swiper galeria-swiper">
+                    <div class="swiper-wrapper" id="galeria-principal">
+                        <!-- Slides serão inseridos via JS -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+                <!-- Thumbnails -->
+                <div class="swiper galeria-thumbs">
+                    <div class="swiper-wrapper" id="galeria-thumbs">
+                        <!-- Thumbnails serão inseridos via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informações do Passeio -->
+        <section class="passeio-info-section">
+            <div class="container">
+                <div class="passeio-grid">
+                    
+                    <!-- Coluna Esquerda - Informações -->
+                    <div class="passeio-content">
+                        
+                        <!-- Cabeçalho -->
+                        <div class="passeio-header">
+                            <div class="passeio-categoria" id="passeio-categoria">
+                                <i class="fas fa-ship"></i>
+                                <span>Barco</span>
+                            </div>
+                            <h1 class="passeio-titulo" id="passeio-titulo">Carregando...</h1>
+                            <div class="passeio-meta">
+                                <div class="meta-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span id="passeio-destino">-</span>
+                                </div>
+                                <div class="meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span id="passeio-duracao">-</span>
+                                </div>
+                                <div class="meta-item meta-destaque" id="destaque-badge" style="display: none;">
+                                    <i class="fas fa-star"></i>
+                                    <span>Destaque</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Descrição Curta -->
+                        <div class="passeio-descricao-curta">
+                            <p id="passeio-descricao">-</p>
+                        </div>
+
+                        <div class="passeio-clima" aria-label="Clima e mar em tempo real do passeio">
+                            <div class="clima__widget clima__widget--hero js-clima-widget" data-lat="-22.96583" data-lon="-42.02778" data-place="Arraial do Cabo, RJ" data-timezone="America/Sao_Paulo">
+                                <div class="clima__loading">
+                                    <i class="fas fa-cloud-sun"></i>
+                                    <p>Carregando clima e mar ao vivo do destino deste passeio...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Características Rápidas -->
+                        <div class="passeio-highlights" id="passeio-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Guia Experiente</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Seguro Incluído</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Equipamentos Fornecidos</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Cancelamento Flexível</span>
+                            </div>
+                        </div>
+
+                        <!-- Descrição Detalhada -->
+                        <div class="passeio-descricao-detalhada" id="passeio-descricao-detalhada">
+                            <!-- Conteúdo será inserido via JS -->
+                        </div>
+
+                        <!-- Botões de Ação -->
+                        <div class="passeio-actions-mobile">
+                            <button class="btn-reservar-mobile" onclick="scrollToReserva()">
+                                <i class="fas fa-calendar-check"></i>
+                                <div>
+                                    <span class="btn-label">Reserve Agora</span>
+                                    <span class="btn-valor" id="mobile-valor">A consultar</span>
+                                </div>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <!-- Coluna Direita - Card de Reserva -->
+                    <div class="passeio-sidebar">
+                        <div class="reserva-card" id="reserva-card">
+                            <div class="reserva-header">
+                                <div class="reserva-valor">
+                                    <span class="valor-label">A partir de</span>
+                                    <span class="valor-numero" id="sidebar-valor">Consulte-nos</span>
+                                </div>
+                            </div>
+
+                            <div class="reserva-info">
+                                <div class="info-item">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Duração</strong>
+                                        <span id="sidebar-duracao">-</span>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-users"></i>
+                                    <div>
+                                        <strong>Grupos</strong>
+                                        <span id="sidebar-grupos">Aceita grupos</span>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i class="fas fa-language"></i>
+                                    <div>
+                                        <strong>Idiomas</strong>
+                                        <span id="sidebar-idiomas">Português, Inglês</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn-reservar-desktop" onclick="abrirModalReserva()">
+                                <i class="fas fa-calendar-check"></i>
+                                Reservar Agora
+                            </button>
+
+                            <button class="btn-whatsapp" onclick="abrirWhatsApp()">
+                                <i class="fab fa-whatsapp"></i>
+                                Falar no WhatsApp
+                            </button>
+
+                            <div class="reserva-garantias" id="reserva-garantias">
+                                <div class="garantia-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Reserva segura</span>
+                                </div>
+                                <div class="garantia-item">
+                                    <i class="fas fa-undo"></i>
+                                    <span>Cancelamento grátis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Sticky -->
+                        <div class="compartilhar-card">
+                            <h3>Compartilhar</h3>
+                            <div class="share-buttons">
+                                <button class="share-btn" onclick="compartilharFacebook()" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                                <button class="share-btn" onclick="compartilharTwitter()" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="share-btn" onclick="compartilharWhatsApp()" title="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                                <button class="share-btn" onclick="copiarLink()" title="Copiar Link">
+                                    <i class="fas fa-link"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Passeios Relacionados -->
+        <section class="relacionados-section">
+            <div class="container">
+                <h2 class="section__title">Você também pode gostar</h2>
+                <div class="swiper relacionados-swiper">
+                    <div class="swiper-wrapper" id="passeios-relacionados">
+                        <!-- Slides serão inseridos via JS -->
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Erro -->
+    <section class="error-section" id="error-section" style="display: none;">
+        <div class="container">
+            <div class="error-content">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h2>Passeio não encontrado</h2>
+                <p>Desculpe, não conseguimos encontrar este passeio.</p>
+                <a href="index.html#passeios" class="button">
+                    <i class="fas fa-arrow-left"></i> Voltar para Passeios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <div class="footer__logo">
+                        <img src="https://www.genspark.ai/api/files/s/eTJcP2Bb" alt="Simplesmente Arraial do Cabo" class="footer-logo-img">
+                    </div>
+                    <p class="footer__description">
+                        Proporcionando experiências inesquecíveis nos destinos mais belos do litoral do Rio de Janeiro.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5522981709100" target="_blank" class="footer__social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Links Rápidos</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html#home">Início</a></li>
+                        <li><a href="index.html#destinos">Destinos</a></li>
+                        <li><a href="index.html#passeios">Passeios</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__links">
+                        <li><i class="fas fa-phone"></i> (22) 98170-9100</li>
+                        <li><i class="fas fa-envelope"></i> contato@simplementearraial.com.br</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Arraial do Cabo, RJ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Simplesmente Arraial do Cabo. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== MODAL DE RESERVA ===== -->
+    <div class="modal" id="modal-reserva">
+        <div class="modal__overlay" onclick="fecharModal()"></div>
+        <div class="modal__content">
+            <button class="modal__close" onclick="fecharModal()">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal__header">
+                <h2 class="modal__title">Reservar Passeio</h2>
+                <p class="modal__subtitle" id="modal-passeio-titulo">Carregando...</p>
+            </div>
+
+            <form class="reserva__form" id="form-reserva" novalidate>
+                <div class="form__grid">
+                    <div class="form__group">
+                        <label for="nome" class="form__label"><i class="fas fa-user"></i> Nome Completo</label>
+                        <input type="text" id="nome" name="nome" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email" class="form__label"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="telefone" class="form__label"><i class="fas fa-phone"></i> Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" class="form__input" required placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div class="form__group">
+                        <label for="data" class="form__label"><i class="fas fa-calendar"></i> Data do Passeio</label>
+                        <input type="date" id="data" name="data" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="horario" class="form__label"><i class="fas fa-clock"></i> Horário</label>
+                        <select id="horario" name="horario" class="form__select" required>
+                            <option value="">Selecione o horário</option>
+                            <option value="07:00">07:00</option>
+                            <option value="08:00">08:00</option>
+                            <option value="09:00">09:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="A combinar">A combinar</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="pessoas" class="form__label"><i class="fas fa-users"></i> Quantidade de Pessoas</label>
+                        <input type="number" id="pessoas" name="pessoas" class="form__input" min="1" max="50" value="1" required>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <label for="observacoes" class="form__label"><i class="fas fa-comment"></i> Observações (Opcional)</label>
+                    <textarea id="observacoes" name="observacoes" class="form__textarea" rows="3" placeholder="Alguma observação, necessidade especial ou pergunta?"></textarea>
+                </div>
+
+                <div class="form__actions">
+                    <button type="button" class="button button--secondary" onclick="fecharModal()">Cancelar</button>
+                    <button type="submit" class="button button--primary" id="btn-confirmar">
+                        <i class="fas fa-check"></i> Confirmar Reserva
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== MODAL DE SUCESSO ===== -->
+    <div class="modal" id="modal-sucesso">
+        <div class="modal__overlay" onclick="fecharModalSucesso()"></div>
+        <div class="modal__content modal__content--small">
+            <div class="modal__success">
+                <div class="success__icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2 class="success__title">Reserva Registrada!</h2>
+                <p class="success__message">
+                    Sua solicitação foi enviada com sucesso! Clique abaixo para confirmar os detalhes via WhatsApp e finalizar sua reserva.
+                </p>
+                <a id="btn-whatsapp-sucesso" href="#" target="_blank" class="button button--whatsapp">
+                    <i class="fab fa-whatsapp"></i> Confirmar pelo WhatsApp
+                </a>
+                <button class="button button--secondary" onclick="fecharModalSucesso()" style="margin-top:10px">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== BOTÃO FLUTUANTE WHATSAPP ===== -->
+    <a href="https://wa.me/5522981709100" target="_blank" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-float__tooltip">Fale conosco!</span>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scrolltop" id="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="js/passeios-data.js"></script>
+    <script src="js/passeios-data-expandido.js"></script>
+    <script src="js/passeio-detalhes.js"></script>
+    <script src="js/clima-widget.js"></script>
+</body>
+</html>

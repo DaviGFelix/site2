@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserve seus passeios em Arraial do Cabo, Búzios, Cabo Frio, Angra dos Reis, Ilha Grande, Paraty e Rio de Janeiro. Passeios de barco, buggy, mergulho, trilha e muito mais!">
+    <title>Simplesmente Arraial do Cabo - Reservas de Passeios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="https://www.genspark.ai/api/files/s/eTJcP2Bb" alt="Simplesmente Arraial do Cabo" class="logo-img">
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+                    <li class="nav__item"><a href="#destinos" class="nav__link">Destinos</a></li>
+                    <li class="nav__item"><a href="#passeios" class="nav__link">Passeios</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section com Carrossel -->
+    <section class="hero-carousel" id="home">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                
+                <!-- Slide 1 - Arraial do Cabo -->
+                <div class="swiper-slide hero-slide">
+                    <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/c4b4fb96-11f7-459d-bd5a-73b8a593fa00/w=1800" alt="Arraial do Cabo" class="hero-slide__bg">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content container">
+                        <span class="hero-slide__badge">⭐ Passeio em Destaque</span>
+                        <h1 class="hero-slide__title">Descubra Arraial do Cabo</h1>
+                        <p class="hero-slide__description">Águas cristalinas e praias paradisíacas te esperam no Caribe Brasileiro</p>
+                        <div class="hero-slide__buttons">
+                            <a href="#passeios" class="hero-slide__button hero-slide__button--primary">
+                                <i class="fas fa-compass"></i> Ver Passeios
+                            </a>
+                            <a href="passeio-detalhes.html?id=barco-arraial-1" class="hero-slide__button hero-slide__button--secondary">
+                                <i class="fas fa-info-circle"></i> Saiba Mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - Búzios -->
+                <div class="swiper-slide hero-slide">
+                    <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/734e0371-4a94-40f9-0007-8c0a2125c300/w=1800" alt="Búzios" class="hero-slide__bg">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content container">
+                        <span class="hero-slide__badge">🎉 Festa no Mar</span>
+                        <h1 class="hero-slide__title">Búzios com Estilo</h1>
+                        <p class="hero-slide__description">Catamarã Premium com DJ ao vivo, diversão e águas cristalinas</p>
+                        <div class="hero-slide__buttons">
+                            <a href="passeio-detalhes.html?id=barco-buzios-1" class="hero-slide__button hero-slide__button--primary">
+                                <i class="fas fa-ticket-alt"></i> Reservar Agora
+                            </a>
+                            <a href="#passeios" class="hero-slide__button hero-slide__button--secondary">
+                                <i class="fas fa-search"></i> Explorar Mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - Excursões -->
+                <div class="swiper-slide hero-slide">
+                    <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/2d79a478-86da-48d2-cbe7-08bd92982400/w=1800" alt="Excursões" class="hero-slide__bg">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content container">
+                        <span class="hero-slide__badge">🚌 Excursões Saindo do RJ</span>
+                        <h1 class="hero-slide__title">Bate e Volta Inesquecível</h1>
+                        <p class="hero-slide__description">Conheça os destinos mais lindos em um único dia</p>
+                        <div class="hero-slide__buttons">
+                            <a href="#passeios" class="hero-slide__button hero-slide__button--primary">
+                                <i class="fas fa-route"></i> Ver Excursões
+                            </a>
+                            <a href="#contato" class="hero-slide__button hero-slide__button--secondary">
+                                <i class="fab fa-whatsapp"></i> Falar Conosco
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 - Aventura -->
+                <div class="swiper-slide hero-slide">
+                    <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/50e1be52-6dd7-4fbe-1c33-7e4aab990700/w=1800" alt="Aventura" class="hero-slide__bg">
+                    <div class="hero-slide__overlay"></div>
+                    <div class="hero-slide__content container">
+                        <span class="hero-slide__badge">🏄 Aventura e Adrenalina</span>
+                        <h1 class="hero-slide__title">Experiências Radicais</h1>
+                        <p class="hero-slide__description">Buggy, Quadriciclo, Mergulho e muito mais!</p>
+                        <div class="hero-slide__buttons">
+                            <a href="#passeios" class="hero-slide__button hero-slide__button--primary">
+                                <i class="fas fa-bolt"></i> Quero Aventura!
+                            </a>
+                            <a href="#passeios" class="hero-slide__button hero-slide__button--secondary">
+                                <i class="fas fa-list"></i> Todos os Passeios
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- Controles do Swiper -->
+            <div class="hero-swiper-pagination"></div>
+            <div class="hero-swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+            <div class="hero-swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+        </div>
+
+        <!-- Scroll Down -->
+        <div class="hero__scroll">
+            <a href="#destinos" class="hero__scroll-button">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Galeria / Carrossel de Imagens -->
+    <section class="inspira section" id="galeria">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Inspire-se com os destinos</h2>
+                <p class="section__subtitle">Uma seleção visual dos cenários mais desejados para destacar seus passeios</p>
+            </div>
+
+            <div class="swiper inspira-swiper" aria-label="Galeria de imagens dos passeios">
+                <div class="swiper-wrapper" id="inspira-swiper-wrapper">
+                    <!-- Slides inseridos via JavaScript -->
+                </div>
+
+                <div class="inspira-swiper-button-prev" aria-label="Imagem anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="inspira-swiper-button-next" aria-label="Próxima imagem">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="inspira-swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinos Section -->
+    <section class="destinos section" id="destinos">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Nossos Destinos</h2>
+                <p class="section__subtitle">Escolha seu próximo destino paradisíaco</p>
+            </div>
+
+            <div class="destinos__grid">
+                <article class="destino__card" data-destino="Arraial do Cabo">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/c4b4fb96-11f7-459d-bd5a-73b8a593fa00/w=900" alt="Arraial do Cabo" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Arraial do Cabo</h3>
+                        <p class="destino__text">Praias paradisíacas com águas cristalinas</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Arraial do Cabo')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Búzios">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/11a6e4fa-5f47-4927-4134-60ab57cd7b00/w=900" alt="Búzios" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Búzios</h3>
+                        <p class="destino__text">Sofisticação e charme mediterrâneo</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Búzios')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Cabo Frio">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/f983a0c1-e19f-4acb-55af-c07319a34800/w=900" alt="Cabo Frio" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Cabo Frio</h3>
+                        <p class="destino__text">Dunas de areia branca e sol o ano todo</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Cabo Frio')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Angra dos Reis">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/44ad3533-655c-4ede-95a6-b27d4c7fb000/w=900" alt="Angra dos Reis" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Angra dos Reis</h3>
+                        <p class="destino__text">365 ilhas de pura beleza natural</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Angra dos Reis')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Ilha Grande">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/b857b248-a932-41ee-e473-ec50d523b200/w=900" alt="Ilha Grande" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Ilha Grande</h3>
+                        <p class="destino__text">Natureza intocada e praias selvagens</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Ilha Grande')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Paraty">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/ee406657-fc12-4b6d-db87-798f435af800/w=900" alt="Paraty" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Paraty</h3>
+                        <p class="destino__text">História colonial e baías deslumbrantes</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Paraty')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Rio de Janeiro">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/a7307552-6716-4d0c-974b-48bc0325ab00/w=900" alt="Rio de Janeiro" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Rio de Janeiro</h3>
+                        <p class="destino__text">Cristo Redentor, Pão de Açúcar e muito mais</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Rio de Janeiro')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+
+                <article class="destino__card" data-destino="Petrópolis">
+                    <div class="destino__image-wrapper">
+                        <img src="https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/cdcd65fc-ecda-4205-0949-03ee17d2ac00/w=900" alt="Petrópolis" class="destino__image">
+                        <div class="destino__overlay"></div>
+                    </div>
+                    <div class="destino__content">
+                        <h3 class="destino__title">Petrópolis</h3>
+                        <p class="destino__text">A cidade imperial da serra carioca</p>
+                        <button class="destino__button" onclick="filtrarPorDestino('Petrópolis')">
+                            <i class="fas fa-search"></i> Ver Passeios
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filtros Section -->
+    <section class="filtros section">
+        <div class="container">
+            <div class="filtros__wrapper">
+                <div class="filtro__group">
+                    <label for="filtro-destino" class="filtro__label">
+                        <i class="fas fa-map-marker-alt"></i> Destino
+                    </label>
+                    <select id="filtro-destino" class="filtro__select">
+                        <option value="">Todos os destinos</option>
+                        <option value="Arraial do Cabo">Arraial do Cabo</option>
+                        <option value="Búzios">Búzios</option>
+                        <option value="Cabo Frio">Cabo Frio</option>
+                        <option value="Angra dos Reis">Angra dos Reis</option>
+                        <option value="Ilha Grande">Ilha Grande</option>
+                        <option value="Paraty">Paraty</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Petrópolis">Petrópolis</option>
+                    </select>
+                </div>
+
+                <div class="filtro__group">
+                    <label for="filtro-tipo" class="filtro__label">
+                        <i class="fas fa-ship"></i> Tipo de Passeio
+                    </label>
+                    <select id="filtro-tipo" class="filtro__select">
+                        <option value="">Todos os tipos</option>
+                        <option value="Barco">Passeio de Barco</option>
+                        <option value="Lancha">Passeio de Lancha</option>
+                        <option value="Buggy">Passeio de Buggy</option>
+                        <option value="Quadriciclo">Passeio de Quadriciclo</option>
+                        <option value="Mergulho">Mergulho</option>
+                        <option value="Jet Ski">Jet Ski</option>
+                        <option value="Voo">Voo / Paramotor</option>
+                        <option value="Trilha">Trilha</option>
+                        <option value="City Tour">City Tour</option>
+                        <option value="Turismo">Turismo</option>
+                        <option value="Turismo Cultural">Turismo Cultural</option>
+                        <option value="Excursão">Excursão</option>
+                        <option value="Transfer">Transfer</option>
+                        <option value="Combo">Combo</option>
+                    </select>
+                </div>
+
+                <button class="filtro__reset" onclick="limparFiltros()">
+                    <i class="fas fa-redo"></i> Limpar Filtros
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passeios Section -->
+    <section class="passeios section" id="passeios">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Nossos Passeios</h2>
+                <p class="section__subtitle">Aventuras incríveis esperando por você</p>
+            </div>
+
+            <div class="passeios__feedback" id="passeios-feedback" aria-live="polite"></div>
+
+            <div class="passeios__grid" id="passeios-grid"></div>
+
+            <div class="passeios__empty" id="passeios-empty" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>Nenhum passeio encontrado com os filtros selecionados.</p>
+                <button onclick="limparFiltros()" class="button">Limpar Filtros</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="clima clima--home" aria-label="Clima e mar em tempo real">
+        <div class="container">
+            <div class="clima__widget clima__widget--hero js-clima-widget" data-lat="-22.96583" data-lon="-42.02778" data-place="Arraial do Cabo, RJ" data-timezone="America/Sao_Paulo">
+                <div class="clima__loading">
+                    <i class="fas fa-cloud-sun"></i>
+                    <p>Carregando clima e mar ao vivo de Arraial do Cabo...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Entre em Contato</h2>
+                <p class="section__subtitle">Estamos aqui para ajudar você</p>
+            </div>
+
+            <div class="contato__grid">
+                <div class="contato__info">
+                    <div class="contato__item">
+                        <div class="contato__icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contato__text">
+                            <h4>Telefone</h4>
+                            <p>(22) 98170-9100</p>
+                        </div>
+                    </div>
+
+                    <div class="contato__item">
+                        <div class="contato__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contato__text">
+                            <h4>Email</h4>
+                            <p>contato@simplementearraial.com.br</p>
+                        </div>
+                    </div>
+
+                    <div class="contato__item">
+                        <div class="contato__icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contato__text">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/5522981709100" target="_blank">(22) 98170-9100</a>
+                        </div>
+                    </div>
+
+                    <div class="contato__item">
+                        <div class="contato__icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contato__text">
+                            <h4>Instagram</h4>
+                            <p>@simplementearraial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29541.88339469789!2d-42.03199392492675!3d-22.966386193548583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x971595e6c7e6bd%3A0x67e4c8f3c4e4e4e4!2sArraial%20do%20Cabo%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1644000000000!5m2!1spt-BR!2sbr"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <div class="footer__logo">
+                        <img src="https://www.genspark.ai/api/files/s/eTJcP2Bb" alt="Simplesmente Arraial do Cabo" class="footer-logo-img">
+                    </div>
+                    <p class="footer__description">
+                        Proporcionando experiências inesquecíveis nos destinos mais belos do litoral do Rio de Janeiro.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5522981709100" target="_blank" class="footer__social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="footer__social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Destinos</h3>
+                    <ul class="footer__links">
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Arraial do Cabo')">Arraial do Cabo</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Búzios')">Búzios</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Cabo Frio')">Cabo Frio</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Angra dos Reis')">Angra dos Reis</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Ilha Grande')">Ilha Grande</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Paraty')">Paraty</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorDestino('Rio de Janeiro')">Rio de Janeiro</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Tipos de Passeios</h3>
+                    <ul class="footer__links">
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Barco')">Passeios de Barco</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Buggy')">Passeios de Buggy</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Quadriciclo')">Passeios de Quadriciclo</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Mergulho')">Mergulho</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Excursão')">Excursões</a></li>
+                        <li><a href="#passeios" onclick="filtrarPorTipo('Trilha')">Trilhas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__title">Informações</h3>
+                    <ul class="footer__links">
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#passeios">Fazer Reserva</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Simplesmente Arraial do Cabo. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== MODAL DE RESERVA ===== -->
+    <div class="modal" id="modal-reserva">
+        <div class="modal__overlay" onclick="fecharModal()"></div>
+        <div class="modal__content">
+            <button class="modal__close" onclick="fecharModal()">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal__header">
+                <h2 class="modal__title">Reservar Passeio</h2>
+                <p class="modal__subtitle" id="modal-passeio-titulo">Carregando...</p>
+            </div>
+
+            <form class="reserva__form" id="form-reserva" novalidate>
+                <div class="form__grid">
+                    <div class="form__group">
+                        <label for="nome" class="form__label"><i class="fas fa-user"></i> Nome Completo</label>
+                        <input type="text" id="nome" name="nome" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="email" class="form__label"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="telefone" class="form__label"><i class="fas fa-phone"></i> Telefone/WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" class="form__input" required placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div class="form__group">
+                        <label for="data" class="form__label"><i class="fas fa-calendar"></i> Data do Passeio</label>
+                        <input type="date" id="data" name="data" class="form__input" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="horario" class="form__label"><i class="fas fa-clock"></i> Horário</label>
+                        <select id="horario" name="horario" class="form__select" required>
+                            <option value="">Selecione o horário</option>
+                            <option value="07:00">07:00</option>
+                            <option value="08:00">08:00</option>
+                            <option value="09:00">09:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="A combinar">A combinar</option>
+                        </select>
+                    </div>
+
+                    <div class="form__group">
+                        <label for="pessoas" class="form__label"><i class="fas fa-users"></i> Quantidade de Pessoas</label>
+                        <input type="number" id="pessoas" name="pessoas" class="form__input" min="1" max="50" value="1" required>
+                    </div>
+                </div>
+
+                <div class="form__group">
+                    <label for="observacoes" class="form__label"><i class="fas fa-comment"></i> Observações (Opcional)</label>
+                    <textarea id="observacoes" name="observacoes" class="form__textarea" rows="3" placeholder="Alguma observação, necessidade especial ou pergunta?"></textarea>
+                </div>
+
+                <div class="reserva__resumo">
+                    <h3 class="resumo__title">Resumo da Reserva</h3>
+                    <div class="resumo__item">
+                        <span>Passeio:</span>
+                        <strong id="resumo-passeio">-</strong>
+                    </div>
+                    <div class="resumo__item">
+                        <span>Destino:</span>
+                        <strong id="resumo-destino">-</strong>
+                    </div>
+                    <div class="resumo__item">
+                        <span>Duração:</span>
+                        <strong id="resumo-duracao">-</strong>
+                    </div>
+                    <div class="resumo__item">
+                        <span>Data:</span>
+                        <strong id="resumo-data">-</strong>
+                    </div>
+                    <div class="resumo__item">
+                        <span>Horário:</span>
+                        <strong id="resumo-horario">-</strong>
+                    </div>
+                    <div class="resumo__item">
+                        <span>Pessoas:</span>
+                        <strong id="resumo-pessoas">-</strong>
+                    </div>
+                    <div class="resumo__item resumo__total">
+                        <span>Valor:</span>
+                        <strong id="resumo-valor">A consultar via WhatsApp</strong>
+                    </div>
+                </div>
+
+                <div class="form__actions">
+                    <button type="button" class="button button--secondary" onclick="fecharModal()">Cancelar</button>
+                    <button type="submit" class="button button--primary" id="btn-confirmar">
+                        <i class="fas fa-check"></i> Confirmar Reserva
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== MODAL DE SUCESSO ===== -->
+    <div class="modal" id="modal-sucesso">
+        <div class="modal__overlay" onclick="fecharModalSucesso()"></div>
+        <div class="modal__content modal__content--small">
+            <div class="modal__success">
+                <div class="success__icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2 class="success__title">Reserva Registrada!</h2>
+                <p class="success__message">
+                    Sua solicitação foi enviada com sucesso! Clique abaixo para confirmar os detalhes via WhatsApp e finalizar sua reserva.
+                </p>
+                <a id="btn-whatsapp-sucesso" href="#" target="_blank" class="button button--whatsapp">
+                    <i class="fab fa-whatsapp"></i> Confirmar pelo WhatsApp
+                </a>
+                <button class="button button--secondary" onclick="fecharModalSucesso()" style="margin-top:10px">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== BOTÃO FLUTUANTE WHATSAPP ===== -->
+    <a href="https://wa.me/5522981709100" target="_blank" class="whatsapp-float" aria-label="Fale conosco pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-float__tooltip">Fale conosco!</span>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scrolltop" id="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/passeios-data.js"></script>
+    <script src="js/passeios-data-expandido.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/clima-widget.js"></script>
+</body>
+</html>

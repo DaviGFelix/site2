@@ -1,0 +1,312 @@
+[26-Mar-2026 19:45:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:46:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:46:40 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:46:43 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:46:45 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:46:45 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:47:53 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:47:55 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:47:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:47:57 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:01 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:04 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:05 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:07 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:19 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:48:23 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:49:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:14 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:17 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:19 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:19 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:20 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:20 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:20 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:20 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:21 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:21 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 19:50:33 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=loca...', '', Object(SensitiveParameterValue), Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:24 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:27 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:28 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:29 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:35 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:22:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DB_HOST failed: Name or service not known in /home3/simp7774/public_html/api/config.php:37
+Stack trace:
+#0 /home3/simp7774/public_html/api/config.php(37): PDO->__construct('mysql:host=DB_H...', 'DB_USER', 'DB_PASS', Array)
+#1 /home3/simp7774/public_html/admin/index.php(27): getDB()
+#2 {main}
+  thrown in /home3/simp7774/public_html/api/config.php on line 37
+[26-Mar-2026 22:24:23 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:23 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:24:28 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:28 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:24:30 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:30 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:24:31 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:31 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:24:36 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:36 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:24:42 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:24:42 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:28:58 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:28:58 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:29:01 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:29:01 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:29:02 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:29:02 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:29:02 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:29:02 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:29:07 America/Fortaleza] PHP Warning:  Constant WA_NUMBER already defined in /home3/simp7774/public_html/api/config.php on line 19
+[26-Mar-2026 22:29:07 America/Fortaleza] PHP Warning:  Constant ADMIN_PASS already defined in /home3/simp7774/public_html/api/config.php on line 20
+[26-Mar-2026 22:32:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function reservationValueExpression() in /home3/simp7774/public_html/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 31
+[26-Mar-2026 22:33:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function reservationValueExpression() in /home3/simp7774/public_html/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 31
+[26-Mar-2026 22:33:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function reservationValueExpression() in /home3/simp7774/public_html/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 31
+[26-Mar-2026 22:38:12 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home3/simp7774/public_html/admin/index.php:380
+Stack trace:
+#0 /home3/simp7774/public_html/admin/index.php(380): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 380
+[26-Mar-2026 22:38:15 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home3/simp7774/public_html/admin/index.php:380
+Stack trace:
+#0 /home3/simp7774/public_html/admin/index.php(380): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 380
+[26-Mar-2026 22:38:35 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home3/simp7774/public_html/admin/index.php:380
+Stack trace:
+#0 /home3/simp7774/public_html/admin/index.php(380): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 380
+[27-Mar-2026 01:30:33 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:30:35 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:30:35 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:30:39 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:30:44 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:31:00 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:31:01 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "•", expecting "," or ";" in /home3/simp7774/public_html/admin/index.php on line 516
+[27-Mar-2026 01:37:03 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home3/simp7774/public_html/admin/index.php:407
+Stack trace:
+#0 /home3/simp7774/public_html/admin/index.php(407): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 407
+[27-Mar-2026 01:37:05 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home3/simp7774/public_html/admin/index.php:407
+Stack trace:
+#0 /home3/simp7774/public_html/admin/index.php(407): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home3/simp7774/public_html/admin/index.php on line 407
